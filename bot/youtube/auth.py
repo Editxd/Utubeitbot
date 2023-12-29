@@ -25,7 +25,7 @@ class NoCredentialFile(Exception):
 
 class GoogleAuth:
     OAUTH_SCOPE = ["https://www.googleapis.com/auth/youtube.upload"]
-    REDIRECT_URI = "https://hxbots.eu.org/gdrive-auth.php"
+    REDIRECT_URI = "https://localhost:1/"
     API_SERVICE_NAME = "youtube"
     API_VERSION = "v3"
 
