@@ -13,13 +13,10 @@ class Messages:
     START_MSG = (
         "**__Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me.__** "
         "**__once you authorise me.You can know more from /help.\nThank you for using Meh 😁**__"
-        "\n\n**__Create Clone Of Me:-\n Watch On Youtube: [Click Here](https://youtu.be/W3QOfZtwDS8)__**"
-        "\n **__Read On Blog: [Click Here](https://hxbots.eu.org/2022/12/deploy-youtube-uploader-bot-on-render/)__**"
-        "\n\n**__HOW TO USE ME:-\n Watch On YouTube: [Click Here](https://youtu.be/dLCXse6HlaE)__**"
-        "\n **__Watch On Google Drive: [Click Here.](https://drive.google.com/file/d/12qp4VcvBOVwhMIx0O5CtO5VvUbCDeFKs/view)__**"
+        "\n\n**__Contact Owner:- @Maheshgreat__**"
         "\n\n**__You can know more from /help.__**"
         "\n**__Or use /login to get started.__**"
-        "\n\n**__Join @HXBots for More Bots...__**"
+        "\n\n**__Join @Unknown_X_Updates for More Bots...__**"
     )
 
     HELP_MSG = [
@@ -63,9 +60,9 @@ class Messages:
         f"**         Date:04-11-2022; Friday \n\n__• Updated Code to support on Koyeb.com.__**",
         f"**         Date:14-07-2022; Thrusday \n\n__• Added Option for Private Use.__**",
         f"**         Date:06-06-2022; Monday\n\n__• Fixed 400 AUTH_BYTES_INVALID: The authorization bytes are invalid.\n• session_name error in deployment.\n• Unknown error about markdown__.**",  
-        "**Bot Developed by [@oVo-HxBots](https://github.com/oVo-HxBots)\n Bot Owned by @HxBots**"
+        "**Bot Developed by @Maheshgreat\n Bot Owned by @Unknown_X_Updates**"
     ]
-    UPGRADE_MSG = "**__For Purchase Contact @Kirodewal or Click Below Link---\nhttps://t.me/+97tA4_TrzyowMjk1**"
+    UPGRADE_MSG = "**__For Upgrade Contact @Maheshgreat or Click Below Link---\nhttps://t.me/Unknown_X_Updates**"
     
     NOT_A_REPLY_MSG = "Please reply to some video file."
 
