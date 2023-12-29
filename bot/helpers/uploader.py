@@ -69,7 +69,7 @@ class Uploader:
             )
             description = (
                 Config.VIDEO_DESCRIPTION
-                + "\nUploaded to YouTube with https://tx.me/Utubeitbot"
+                + "\nUploaded to YouTube by https://t.me/Unknown_X_Updates"
             )[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = "private"
@@ -96,7 +96,7 @@ class Uploader:
             self.status = True
             self.message = (
                 f"Title: {title}\n Link: https://youtu.be/{video_id}"
-                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@HxBots | [@oVo-HxBots](https://github.com/oVo-HxBots)**"
+                f"\n\nCategory ID: {categoryName} | Category Code: {categoryId}\n**@Unknown_X_Updates**"
                 f"\n\n  **Thanks For Using Our Bot. Use /upgrade To Upload Unlimited Videos.**"
             )
         except Exception as e:
