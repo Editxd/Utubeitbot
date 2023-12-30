@@ -36,7 +36,8 @@ def map_btns(pos):
     Filters.private
     & Filters.incoming
     & Filters.command("help")
-    & Filters.user(Config.AUTH_USERS)
+
+
 )
 async def _help(c: UtubeBot, m: Message):
     await m.reply_chat_action("typing")
@@ -67,7 +68,7 @@ url = auth.GetAuthUrl()
     Filters.private
     & Filters.incoming
     & Filters.command("login")
-    & Filters.user(Config.AUTH_USERS)
+    
 )
 async def _login(c: UtubeBot, m: Message):
     await m.reply_chat_action("typing")
